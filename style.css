@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf7d5; /* Vert pâle */
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #5eba8d, #64b88e); /* Dégradé de vert */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #2c3e50;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f4f4f4); /* Dégradé de blanc à gris clair */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #5eba8d, #64b88e); /* Dégradé de vert */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Ajoute des coins arrondis aux images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère aux images */
+    margin: 10px 0; /* Ajoute une marge autour des images */
+  }
